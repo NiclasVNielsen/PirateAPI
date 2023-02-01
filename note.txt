@@ -1,2 +1,10 @@
 https://www.youtube.com/watch?v=qg-mdAh17jI&list=PLJetLDY7yKuo0u7ewtNl8Gb9WC-DnbBIL&index=4
 time: 6:46
+
+idea:
+Pirate Bank
+
+* Store treassure maps
+* the treassures in the chest(s)
+* recommended crew size
+* danger level
