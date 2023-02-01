@@ -4,7 +4,8 @@
   "description": "i like treassure",
   "main": "index.js",
   "scripts": {
-    "test": "serve"
+    "serve": "nodemon index.js",
+    "test": "🔥"
   },
   "repository": {
     "type": "git",

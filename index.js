@@ -10,6 +10,18 @@ app.get("/api/aaargh", (req, res) => {
     res.status(200).send({msg: "meep"})
 })
 
+mongoose.set('strictQuery', false);
+mongoose.connect(
+    process.env.DBHOST,
+    {
+        useUnifiedTopology: true,
+        useNewUrlParser: true
+    }
+).catch(error => console.error("🔥 Error connecting to MongoDB: " + error));
+
+mongoose.connection.once('open', () => console.log('Connected to MongoDB'))
+
+
 const port = process.env.PORT || 8000;
 
 app.listen(port, function(){
